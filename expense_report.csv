@@ -1,0 +1,5 @@
+ID,Amount,Category,Description,Date,Time,Status
+1,500.0,Family,gf,18-05-2026,02:33 PM,Normal
+2,2240.0,Dining Out,gf,18-05-2026,02:34 PM,Over Limit
+3,300.0,Shopping,shopping,24-05-2026,06:36 PM,Over Limit
+4,700.0,Groceries,evening,24-05-2026,06:36 PM,Over Limit

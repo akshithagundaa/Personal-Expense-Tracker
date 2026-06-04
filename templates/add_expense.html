@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Add Expense</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+
+    <div class="container mt-5">
+
+        <a href="/"
+           class="btn btn-secondary mb-3">
+
+            Back Home
+
+        </a>
+
+        <div class="card shadow p-5">
+
+            <h2 class="text-center mb-4">
+                Add Expense
+            </h2>
+
+            <form method="POST">
+
+                <!-- AMOUNT -->
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Amount
+                    </label>
+
+                    <input type="number"
+                           step="0.01"
+                           name="amount"
+                           class="form-control"
+                           required>
+
+                </div>
+
+
+                <!-- CATEGORY -->
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Category
+                    </label>
+
+                    <select name="category"
+                            class="form-select">
+
+                        <option>Food</option>
+
+                        <option>Dining Out</option>
+
+                        <option>Coffee</option>
+
+                        <option>Groceries</option>
+
+                        <option>Snacks</option>
+
+                        <option>Travel</option>
+
+                        <option>Fuel</option>
+
+                        <option>Cab / Taxi</option>
+
+                        <option>Public Transport</option>
+
+                        <option>Flight Tickets</option>
+
+                        <option>Hotel</option>
+
+                        <option>Shopping</option>
+
+                        <option>Clothing</option>
+
+                        <option>Footwear</option>
+
+                        <option>Accessories</option>
+
+                        <option>Electronics</option>
+
+                        <option>Gadgets</option>
+
+                        <option>Entertainment</option>
+
+                        <option>Movies</option>
+
+                        <option>Gaming</option>
+
+                        <option>Streaming Services</option>
+
+                        <option>Music</option>
+
+                        <option>Subscriptions</option>
+
+                        <option>Gym</option>
+
+                        <option>Fitness</option>
+
+                        <option>Health</option>
+
+                        <option>Medicine</option>
+
+                        <option>Doctor Visit</option>
+
+                        <option>Insurance</option>
+
+                        <option>Rent</option>
+
+                        <option>EMI</option>
+
+                        <option>Electricity Bill</option>
+
+                        <option>Water Bill</option>
+
+                        <option>Internet Bill</option>
+
+                        <option>Mobile Recharge</option>
+
+                        <option>Education</option>
+
+                        <option>Courses</option>
+
+                        <option>Books</option>
+
+                        <option>Investment</option>
+
+                        <option>Stocks</option>
+
+                        <option>Crypto</option>
+
+                        <option>Savings</option>
+
+                        <option>Family</option>
+
+                        <option>Pets</option>
+
+                        <option>Personal Care</option>
+
+                        <option>Salon</option>
+
+                        <option>Gifts</option>
+
+                        <option>Charity</option>
+
+                        <option>Office Expense</option>
+
+                        <option>Business</option>
+
+                        <option>Salary</option>
+
+                        <option>Freelance Income</option>
+
+                        <option>Side Hustle</option>
+
+                        <option>Miscellaneous</option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- DESCRIPTION -->
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Description
+                    </label>
+
+                    <textarea name="description"
+                              class="form-control"></textarea>
+
+                </div>
+
+
+                <!-- BUTTON -->
+
+                <button type="submit"
+                        class="btn btn-primary w-100">
+
+                    Save Expense
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
